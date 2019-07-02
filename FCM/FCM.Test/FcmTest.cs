@@ -8,7 +8,7 @@ namespace FCM.Test
         public FcmTest()
         {
             _fcm = new FcmBuilder()
-                .WithApiKey("AIzaSyB9qaLmZwt3RjwLfjXl6UNn9wO2t7ySHb8Raj")
+                .WithApiKey("Your_API_key")
                 .GetFcm();
 
         }
